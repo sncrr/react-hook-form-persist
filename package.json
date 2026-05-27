@@ -1,0 +1,62 @@
+{
+  "name": "@sncrr/react-hook-form-persist",
+  "version": "1.0.0",
+  "description": "A lightweight, lag-free utility for automatically persisting and restoring React Hook Form state using localStorage, sessionStorage, or AsyncStorage (React Native).",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "react-hook-form",
+    "form-persist",
+    "form-restore",
+    "form-save",
+    "form-state",
+    "form-storage",
+    "form-manager",
+    "form-utility",
+    "form-helper",
+    "form-tool",
+    "form-pack",
+    "react-hook-form-persist",
+    "use-form-persist",
+    "use-react-hook-form-persist",
+    "form-pack-web",
+    "form-pack-native",
+    "react-form-persist",
+    "react-form-storage",
+    "react-form-manager",
+    "react-form-utility",
+    "react-form-helper",
+    "react-form-tool",
+    "react-form-pack"
+  ],
+  "author": "sncrr",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sncrr/react-hook-form-persist.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sncrr/react-hook-form-persist/issues"
+  },
+  "homepage": "https://github.com/sncrr/react-hook-form-persist#readme",
+  "peerDependencies": {
+    "react": ">=18",
+    "react-hook-form": ">=7"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/react": "^18.0.0",
+    "react": "^18.0.0",
+    "react-hook-form": "^7.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
