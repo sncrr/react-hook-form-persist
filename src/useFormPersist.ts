@@ -18,7 +18,7 @@ const getStorage = (type: StorageType) => {
   };
 };
 
-export function usePersistedForm<T extends FieldValues>({
+export function useFormPersist<T extends FieldValues>({
   key,
   formMethods,
   override = {},
